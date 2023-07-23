@@ -1,0 +1,41 @@
+/*________________  newsS  _________________*/
+.newss {
+    margin-top: 10rem;
+  }
+  
+  .newss-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .news {
+    background-color: var(--background-color-1);
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+  }
+  
+  .news:hover {
+    background: transparent;
+    border-color: var(--primary-color);
+  }
+  
+  .news-content {
+    padding: 2rem;
+  }
+  
+  .news-content p {
+    margin: 0.7rem 0 2rem;
+    font-size: 0.8rem;
+  }
+  
+
+  @media screen and (max-width:768px) {
+    .newss-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+      }
+      
+  }
