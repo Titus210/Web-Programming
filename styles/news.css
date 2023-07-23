@@ -12,7 +12,7 @@
   .news {
     background-color: var(--background-color-1);
     text-align: center;
-    border: 1px solid transparent;
+    border: 1px solid white;
     transition: var(--transition);
   }
   
@@ -25,9 +25,14 @@
     padding: 2rem;
   }
   
+    .news-content h4 {
+   
+    color:yellow;
+  }
   .news-content p {
     margin: 0.7rem 0 2rem;
     font-size: 0.8rem;
+    color:white;
   }
   
 
